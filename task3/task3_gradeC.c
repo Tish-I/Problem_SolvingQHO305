@@ -2,7 +2,6 @@
 
 int main()
 {
-
     int steps, dayCount = 0;
     int totalSteps = 0;
     float distance, calories;

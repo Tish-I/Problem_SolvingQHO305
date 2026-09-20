@@ -66,7 +66,7 @@ int saveItems()
     return 1;
 }
 
-int addItem(int id, char assetTag[], char status[])
+int addItem(int id, char assetTag[], char status[]) 
 {
 
     for (int i = 0; i < itemCount; i++)

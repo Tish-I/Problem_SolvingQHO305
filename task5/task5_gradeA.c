@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_ALL, "en_GB.UTF-8");
     int numOfDays;
     float tempReadings[50];
 
